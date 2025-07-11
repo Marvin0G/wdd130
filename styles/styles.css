@@ -28,11 +28,16 @@ aside {
     margin: 1rem;
     border:1px solid rgb(0, 0, 0/ 0.2) ;
     padding: 1rem;
-    background-color: yellowgreen;
-    color: #574848;
+    background-color: navy;
+    color: #ffffff;
     text-align: center;
 }
 aside img {
-    width: 200px;
+    width: 300px;
     height: auto;
+}
+footer{
+    margin-top: 20px;
+    border-top: 20 navy;
+    text-align: center;
 }
