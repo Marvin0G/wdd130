@@ -1,43 +1,101 @@
-nav {
-    background-color: darkblue;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+:root {
+ --primary-color-1:#1a1a40;
+ --secondary-colors:#cddc39;
+ --accent-color:#00bcd4;
+ --heading-font:'poppins',sans-serif;
+ --general-font-family:'open sans', sans-serif;
+ --heading-font-size: 1.0rem;
+ --general-font-size:1.2rem;
+ --padding:1rem ;
+}
+
+
+
+
+.box{
+    margin: 2rem;
+    border: 1px solid var(--primary-color-1);
     padding: 10px;
+    background-color: var(--primary-color-1);
+    color: var(--accent-color);
+}
+nav {
+    background-color:var(--primary-color-1);
+    padding: 10px ;
+    border-radius: 10px;
+
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding);
+    text-decoration: none;
+    font-size: 1rem;
+    /* optional */
+    display: inline-block;
+    margin-right: 1rem;
+    font-family: var(--heading-font);
+    font-size: var(--heading-font-size);
 }
 
 h1{
-    color: darkblue;
+    color: var(--accent-color);
+    text-align: center;
 }
 main img{
     width: 150px;
     height: auto;
-    border: 1px solid black;
-    padding: 2px;
+    border: 1px solid var(--primary-color-1);
+    padding: 1px;
     box-shadow: 0 0 30px grey;
+    
+}
+li a{
+    text-decoration: none;
+    color: var(--secondary-colors);
 }
 
 p {
-    padding: 10px;
+    padding: var(--padding);
+    color: var(--secondary-colors);
 }
 aside {
     width: 20rem;
     margin: 1rem;
     border:1px solid rgb(0, 0, 0/ 0.2) ;
-    padding: 1rem;
-    background-color: navy;
-    color: #ffffff;
+    padding: var(--padding);
+    background-color: var(--primary-color-1);
+    color: var(--accent-color);
     text-align: center;
+    border-radius: 10px;
+}
+body{
+    font-family: var(--general-font-family);
 }
 aside img {
     width: 300px;
     height: auto;
 }
+aside p{
+    color: var(--accent-color);
+}
 footer{
     margin-top: 20px;
-    border-top: 20 navy;
+    border-top: 20px solid var(--primary-color-1);
+    border-radius: 10px;
     text-align: center;
 }
+
+
+/*--------------- Class selectors --------------*/
