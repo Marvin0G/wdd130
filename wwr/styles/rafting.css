@@ -204,3 +204,48 @@ button {
 button:hover {
     background-color: #45a049;
 }
+
+.cta-button {
+    background-color: var(--secondary_color);
+    color: white;
+    padding: 8px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+}
+.cta-button:hover {
+    background-color: var(--primary_color);
+}
+
+.newsletter {
+    padding: 10px;
+    background-color: var(--accent_color1);
+    text-align: center;
+}
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+    padding: 5px;
+    margin: 5px 0;
+    width: 80%;
+}
+
+
+.trips-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+.trips-grid article {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: var(--accent_color1);
+}
+.trips-grid img {
+    width: 100%;
+    height: auto;
+}
+.price {
+    font-weight: bold;
+    color: var(--secondary_color);
+}
+
